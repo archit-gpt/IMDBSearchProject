@@ -1,7 +1,7 @@
 # IMDB Top 250 Movies Search Application
 
 ## Project Overview
-The IMDB Top 250 Movies Search Application is a command-line interface (CLI) based application that allows users to search for movies from the IMDB Top 250 list based on various criteria such as title, year, genre, actors, and directors. The application employs a simple yet robust search functionality incorporating fuzzy matching to enhance user experience by handling approximate searches effectively.
+The IMDB Top 250 Movies Search Application is a command-line interface (CLI) application that allows users to search for movies from the IMDB Top 250 list based on various criteria, such as title, year, genre, actors, and directors. It employs fuzzy matching to enhance user experience by handling approximate searches effectively.
 
 ## Features
 - **Search by Title**: Look up movies by entering partial or full movie titles.
@@ -14,7 +14,7 @@ The IMDB Top 250 Movies Search Application is a command-line interface (CLI) bas
 ## Technologies Used
 - **Python**: The primary programming language used.
 - **fuzzywuzzy**: Python library for fuzzy string matching.
-- **nltk**: Natural language toolkit for Python used for text processing.
+- **nltk**: Natural Language Toolkit for Python used for text processing.
 
 ## Setup Instructions
 
@@ -23,19 +23,35 @@ The IMDB Top 250 Movies Search Application is a command-line interface (CLI) bas
 - Git (optional, recommended for cloning the repository)
 
 ### Installation
-1. **Clone the Repository** (if Git is installed): git clone https://github.com/yourusername/imdb-search-app.git
-2. **Change Directory** : cd imdb-search-app
+1. **Clone the Repository** (if Git is installed): 
+   ```sh
+   git clone https://github.com/yourusername/imdb-search-app.git
+   ```
+2. **Change Directory**:
+   ```sh
+   cd imdb-search-app
+   ```
 3. **Alternatively, download the ZIP file of the project and extract it.**
-4. **Set Up a Python Virtual Environment** (optional, but recommended): a) python -m venv venv. b) source venv/bin/activate   # On Windows use b) venv\Scripts\activate
-6. **Install Required Packages**: pip install -r requirements.txt
+4. **Set Up a Python Virtual Environment** (optional, but recommended):
+   ```sh
+   python -m venv venv
+   source venv/bin/activate   # On Windows use: venv\Scripts\activate
+   ```
+5. **Install Required Packages**:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ## How to Use
-Run the application using: python search_app.py
+Run the application using:
+```sh
+python search_app.py
+```
 
 ### Example Queries
-- **Search by Title**: 1: Shawshank Redemption
-- **Search by Year**: 2: 1994
-- **Search by Actor**: 6: Morgan Freeman
+- **Search by Title**: `1: Shawshank Redemption`
+- **Search by Year**: `2: 1994`
+- **Search by Actor**: `6: Morgan Freeman`
 
 ## Extensibility
 - **Web Interface**: Future iterations could include a web-based interface for easier access and interaction.
@@ -44,7 +60,7 @@ Run the application using: python search_app.py
 - **User Authentication and Profiles**: Adding user management to save favorite movies and search history.
 
 ## Contributing
-Contributions are welcome! Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests to us.
+Contributions are welcome! Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
@@ -54,8 +70,4 @@ For any queries, you can reach out to [Archit Gupta](mailto:archit@ucsb.edu).
 
 Thank you for checking out the IMDB Top 250 Movies Search Application!
 
-
-
-
-
-
+---
