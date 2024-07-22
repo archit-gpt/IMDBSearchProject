@@ -50,7 +50,7 @@ Contributions are welcome! Please read `CONTRIBUTING.md` for details on our code
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
 ## Contact
-For any queries, you can reach out to [Your Name](mailto:your.email@example.com).
+For any queries, you can reach out to [Archit Gupta](mailto:archit@ucsb.edu).
 
 Thank you for checking out the IMDB Top 250 Movies Search Application!
 
