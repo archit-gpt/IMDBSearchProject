@@ -26,7 +26,7 @@ The IMDB Top 250 Movies Search Application is a command-line interface (CLI) bas
 1. **Clone the Repository** (if Git is installed): git clone https://github.com/yourusername/imdb-search-app.git
 2. **Change Directory** : cd imdb-search-app
 3. **Alternatively, download the ZIP file of the project and extract it.**
-4. **Set Up a Python Virtual Environment** (optional, but recommended): a) python -m venv venv. b) source venv/bin/activate # On Windows use b) venv\Scripts\activate
+4. **Set Up a Python Virtual Environment** (optional, but recommended): a) python -m venv venv. b) source venv/bin/activate    On Windows use b) venv\Scripts\activate
 6. **Install Required Packages**: pip install -r requirements.txt
 
 ## How to Use
